@@ -31,6 +31,6 @@ public class HelloWorldApplication {
 class HelloWorldController {
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hi shashank";
+        return "Hi shas";
     }
 }

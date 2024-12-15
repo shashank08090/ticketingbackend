@@ -29,4 +29,10 @@ public class UserController {
         // Save user to the database and return the saved user object
         return userRepository.save(user);
     }
+
+    // Example endpoint to demonstrate a custom message
+    @GetMapping("/mycode")
+    public String myCode() {
+        return "Welcome to the API !!";
+    }
 }
